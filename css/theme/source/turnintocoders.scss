@@ -1,0 +1,55 @@
+/**
+ * Turn into Coders' theme for reveal.js.
+ *
+ * Copyright (C) 2017 Turn into Coders, http://www.turnintocoders.it
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@font-face {
+	font-family: "HelveticaNeue";
+	font-weight: bold;
+	src: url("font/HelveticaNeue-Bold.otf");
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	font-weight: normal;
+	src: url("font/HelveticaNeue-Roman.otf");
+}
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #333333;
+
+$mainFont: 'HelveticaNeue', sans-serif;
+$linkColor: #f06754;
+$headingColor: #f06754;
+$headingFont: 'HelveticaNeue', sans-serif;
+$headingFontWeight: bold;
+$headingTextTransform: none;
+
+$heading2Size: 1.5em;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.reveal a {
+	text-decoration: underline;
+}
+
+.reveal .slides {
+	text-align: left;
+}
+
+.reveal h1 {
+	color: #fff;
+}
