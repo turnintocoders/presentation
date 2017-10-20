@@ -305,3 +305,9 @@ body {
 
 .reveal h1 {
   color: #fff; }
+
+.title-background {
+  background: url("assets/texture-home.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right; }
